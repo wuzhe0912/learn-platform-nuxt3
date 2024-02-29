@@ -1,8 +1,12 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+const store = useHomeStore();
+const { count } = store;
+</script>
 
 <template>
   <div>
-    Page: about
+    <AboutHeader />
+    <div>Store: {{ count }}</div>
   </div>
 </template>
 

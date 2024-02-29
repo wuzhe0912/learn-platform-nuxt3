@@ -2,9 +2,9 @@
 
 <template>
   <div>
-    <header>header 123</header>
+    <header>Layout header</header>
     <slot />
-    <footer>footer</footer>
+    <footer>Layout footer</footer>
   </div>
 </template>
 
